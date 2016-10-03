@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dh.kukgel.MainActivity">
+
+    <Button
+        android:onClick="onClick3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="보험사 긴급출동"
+        android:textSize="20dp"
+        android:id="@+id/sos"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/check"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/radius"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:onClick="onClick2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="셀프 관리점검"
+        android:textSize="20dp"
+        android:id="@+id/check"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/gallery"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/radius"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:onClick="onClick1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="갤러리"
+        android:textSize="20dp"
+        android:id="@+id/gallery"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/radius"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:text="국갤"
+        android:textSize="40dp"
+        android:id="@+id/button4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/radius2"
+        android:layout_marginBottom="50dp"
+       />
+</RelativeLayout>

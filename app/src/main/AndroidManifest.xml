@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dh.kukgel">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_car"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash"></activity>
+        <activity android:name=".Gallery"></activity>
+        <activity android:name=".Sos"></activity>
+        <activity android:name=".Check"></activity>
+        <activity android:name=".NaverMyLocation"></activity>
+
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_accent"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_avante"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_i30"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_sonata"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_sonatahybrid"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_sonatapluginhybrid"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_i40"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_grandeur"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_grandeurhybrid"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_aslan"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_ioniqhybrid"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_ioniqelectric"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_tucson"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_tucsonixfuelcell"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_santafe"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_maxcruz"></activity>
+        <activity android:name=".Gallery_hyundai_car.Gallery_hyundai_veloster"></activity>
+
+        <activity android:name=".Gallery_kia_car.Gallery_kia"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_morning"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_ray"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_pride"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kthree"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kthreekoup"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kfive"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kseven"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_knine"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kfivehybrid"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_kfivephev"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_ksevenhybrid"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_soul"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_soulev"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_niro"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_crens"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_sportage"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_sorento"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_mohave"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_carnival"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_carnivalhilimousine"></activity>
+        <activity android:name=".Gallery_kia_car.Gallery_kia_carnivaloutdoor"></activity>
+
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_sm3"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_sm3ze"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_sm5"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_sm6"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_sm7"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_qm3"></activity>
+        <activity android:name=".Gallery_samsung_car.Gallery_samsung_qm5"></activity>
+
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_tivoliair"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_tivoli"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_chairmanw"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_rextonw"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_korandoc"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_korandosport"></activity>
+        <activity android:name=".Gallery_ssangyong_car.Gallery_ssangyong_korandoturismo"></activity>
+
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_spark"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_sparkev"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_volt"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_aveo"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_cruze"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_malibu"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_impala"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_trax"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_orlando"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_captiva"></activity>
+        <activity android:name=".Gallery_chevrolet_car.Gallery_chevrolet_camaross"></activity>
+    </application>
+</manifest>
